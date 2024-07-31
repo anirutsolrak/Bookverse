@@ -1,0 +1,45 @@
+body {
+  background-color: #f2e9e4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  padding: 20px;
+}
+
+.card-livro {
+  max-height: 600px; /* Limita a altura do cartão */
+  margin-bottom: 20px;
+}
+
+.card-livro .MuiCardMedia-root {
+  background-color: #d9cab3; /* Cor de fundo da imagem do livro */
+}
+
+.card-livro .MuiCardContent-root {
+  padding: 16px;
+}
+
+.card-livro .MuiTypography-h5 {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* Trunca o título com "..." */
+}
+
+.card-livro .MuiTypography-body2 {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.card-livro .MuiButton-root {
+  margin: 1em;
+  background-color: #a0522d;
+  color: #fff8f0;
+  &:hover {
+    background-color: #80421d;
+  }
+}
